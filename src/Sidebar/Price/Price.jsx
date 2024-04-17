@@ -28,7 +28,7 @@ const Price = ({ handleChange }) => {
           <span className="checkmark"></span>Over $150
         </label> */}
         <label className="sidebar-label-container">
-          <input type="radio" onChange={handleChange} name="price" />
+          <input type="radio" onChange={handleChange} value="" name="price" />
           <span className="checkmark"></span>All
         </label>
         <Input

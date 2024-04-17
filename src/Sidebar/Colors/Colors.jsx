@@ -32,7 +32,7 @@ const Colors = ({ handleChange }) => {
           <span className="checkmark"></span>White
         </label> */}
         <label className="sidebar-label-container">
-          <input type="radio" onChange={handleChange} name="color" />
+          <input type="radio" value="" onChange={handleChange} name="color" />
           <span className="checkmark all"></span>All
         </label>
         <Input

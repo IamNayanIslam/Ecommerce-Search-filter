@@ -26,12 +26,7 @@ const Category = ({ handleChange }) => {
         <span className="checkmark"></span>Heels
       </label> */}
       <label className="sidebar-label-container">
-        <input
-          type="radio"
-          onChange={handleChange}
-          value="all"
-          name="category"
-        />
+        <input type="radio" onChange={handleChange} value="" name="category" />
         <span className="checkmark"></span>All
       </label>
 
