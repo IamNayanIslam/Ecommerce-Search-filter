@@ -5,6 +5,7 @@ nav {
   align-items: center;
   z-index: 999;
   margin-left: 2rem;
+  padding: 10px;
 }
 
 input {
