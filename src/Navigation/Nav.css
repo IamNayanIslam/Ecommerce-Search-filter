@@ -25,3 +25,8 @@ input {
   margin-left: 2rem;
   color: #494949;
 }
+
+.profile-container {
+  display: flex;
+  gap: 10px;
+}
